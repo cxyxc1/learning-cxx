@@ -37,6 +37,8 @@ ColorEnum convert_by_pun(Color c) {
 
     TypePun pun;
     // TODO: 补全类型双关转换
+    pun.c = c; // 先写入 Color 类型
+    
 
     return pun.e;
 }
